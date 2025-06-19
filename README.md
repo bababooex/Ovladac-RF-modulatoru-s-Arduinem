@@ -1,1 +1,2 @@
 # Ovladac-RF-modulatoru-s-Arduinem
+Jedná se o jednoduchý ovladač klasického I2C RF modulátoru od NXP, který lze běžně najít např. v satelitních přijímačích. Zde je řízen Wifi Kitem 8 s čipem ESP8226. Displej pro zobrazení informací bohatě stačí, na displeji se zobrazuje aktuální kanál, zvukový systém a stav testovacího signálu (obraz + zvuk). Ovladač na něj naleznete zde: https://github.com/arkhipenko/TM1650/tree/master.
