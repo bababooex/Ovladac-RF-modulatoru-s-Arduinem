@@ -91,7 +91,7 @@ void DisplayUpdate(byte channel, byte soundIdx, boolean testMode) {
     d.displayChar(1, (channel % 10) + '0', false);
     d.displayChar(2, testMode ? 'T' : ' ', false);
 
-    const char soundLetters[] = {'N', 'G', 'I', 'K'};
+    const char soundLetters[] = {'N', 'G', 'I', 'D'};
     d.displayChar(3, soundLetters[soundIdx], false);
 
     lastChannel = channel;
